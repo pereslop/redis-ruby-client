@@ -1,0 +1,40 @@
+PATH
+  remote: .
+  specs:
+    redis-ruby-client (0.0.0)
+      redis
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (10.0.2)
+    diff-lcs (1.4.4)
+    fakeredis (0.8.0)
+      redis (~> 4.1)
+    redis (4.2.5)
+    rspec (3.10.0)
+      rspec-core (~> 3.10.0)
+      rspec-expectations (~> 3.10.0)
+      rspec-mocks (~> 3.10.0)
+    rspec-core (3.10.1)
+      rspec-support (~> 3.10.0)
+    rspec-expectations (3.10.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-mocks (3.10.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-support (3.10.2)
+
+PLATFORMS
+  x86_64-darwin-19
+
+DEPENDENCIES
+  bundler (~> 2.0)
+  byebug (~> 10.0)
+  fakeredis
+  redis-ruby-client!
+  rspec (~> 3.0)
+
+BUNDLED WITH
+   2.2.11

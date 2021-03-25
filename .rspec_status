@@ -1,0 +1,4 @@
+example_id                                | status | run_time        |
+----------------------------------------- | ------ | --------------- |
+./spec/redis_ruby_client_spec.rb[1:1]     | passed | 0.00066 seconds |
+./spec/redis_ruby_client_spec.rb[1:2:1:1] | failed | 0.01054 seconds |
